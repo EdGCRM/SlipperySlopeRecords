@@ -143,6 +143,7 @@ section{ position:relative; z-index:1; }
 .site-header .container{
   display:flex; align-items:center; justify-content:space-between;
   gap:20px;
+  z-index:1001;
 }
 .wordmark{
   font-family:var(--font-display);
