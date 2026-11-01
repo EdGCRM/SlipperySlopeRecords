@@ -419,10 +419,7 @@ section{ position:relative; z-index:1; }
 /* bio block variant for a wide logo/wordmark instead of a portrait photo */
 .bio-block--logo{ grid-template-columns:1fr; }
 .bio-logo{
-  width:100%; max-width:420px; padding:28px; border-radius:var(--radius);
-  background:linear-gradient(160deg,var(--bg-card),var(--bg-raised));
-  border:1px solid var(--line); box-shadow:0 18px 40px rgba(0,0,0,.45);
-  margin-bottom:6px;
+  width:100%; max-width:420px; margin:0 auto 6px;
 }
 .bio-logo img{ display:block; width:100%; height:auto; }
 
